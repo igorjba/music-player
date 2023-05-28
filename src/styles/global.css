@@ -1,5 +1,10 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  --font-family-main: 'Roboto', sans-serif;
+  --font-family-secondary: 'Rubik', sans-serif;
+
+  --color-text: #ffffff;
+  --color-line: #6A6363;
 }
 
 * {

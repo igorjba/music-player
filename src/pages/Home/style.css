@@ -8,3 +8,23 @@
 
     background: linear-gradient(180deg, #0C0505 0%, #3A3535 47.92%, #5E5858 100%);
 }
+
+main {
+    max-width: 1440px;
+}
+
+main h2 {
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-line);
+    padding-bottom: 24px;
+    margin-bottom: 12px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+
+    min-width: 85%;
+    height: 500px;
+}

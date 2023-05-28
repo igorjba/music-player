@@ -8,7 +8,7 @@ function Header() {
             <img className='logo' src={Logo} alt="logo" />
             <div className='container-welcome'>
                 <img className='profile-img' src={ProfileImage} alt="Profile" />
-                <strong className='profile-name'>Bem Vindo, Igor Bahia</strong>
+                <strong className='profile-name'>Igor Bahia</strong>
             </div>
 
         </header>

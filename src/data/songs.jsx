@@ -1,4 +1,4 @@
-export const musics = [
+export const songs = [
   {
     id: 1,
     title: "Violão Acústico",
