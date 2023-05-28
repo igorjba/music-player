@@ -33,5 +33,11 @@ header {
     border-radius: 50%;
     border: 2px solid #6A6363;
 
+    transform: scaleX(-1);
+
     cursor: pointer;
+}
+
+.profile-img:hover {
+    border: 2px solid #ffffff;
 }
