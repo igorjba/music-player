@@ -7,8 +7,9 @@
     cursor: pointer;
 }
 
-.card:hover {
-    transform: scale(1.02);
+.card:active,
+.active {
+    transform: scale(0.95);
     transition: transform 0.5s ease;
 }
 

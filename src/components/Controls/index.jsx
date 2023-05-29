@@ -1,10 +1,10 @@
+import { useEffect, useState } from 'react';
 import NextIcon from '../../assets/next.svg';
 import PauseIcon from '../../assets/pause.svg';
 import PlayIcon from '../../assets/play.svg';
 import PreviousIcon from '../../assets/previous.svg';
 import stopIcon from '../../assets/stop.svg';
 import './style.css';
-import { useRef, useEffect, useState } from 'react';
 
 function Controls({ currentSong, audioRef, setIconBtn, iconBtn, handleChangeSong, progressRef }) {
     const [songDuration, setSongDuration] = useState('0:00')

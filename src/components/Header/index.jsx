@@ -1,6 +1,6 @@
-import './style.css';
 import Logo from '../../assets/logo.svg';
 import ProfileImage from '../../assets/profile.jpg';
+import './style.css';
 
 function Header() {
     return (

@@ -1,9 +1,11 @@
 import './style.css';
 
-function Card({ title, artist, description, cover }) {
+function Card({ title, artist, description, cover, active }) {
 
     return (
-        <div className='card'>
+        <div
+            className={`card ${active ? 'active' : ''}`}
+        >
             <img src={cover} alt={`Capa da música ${title}`} />
             <h3>{title}</h3>
             <p>{artist}</p>
